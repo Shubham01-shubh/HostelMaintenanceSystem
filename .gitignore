@@ -1,0 +1,18 @@
+# Ignore Eclipse/STS Metadata
+.settings/
+.project
+.classpath
+bin/
+build/
+.metadata/
+
+# Ignore Compiled Folders
+target/
+*.class
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Optional: Ignore local DB credentials if sensitive
+# src/main/resources/db.properties
